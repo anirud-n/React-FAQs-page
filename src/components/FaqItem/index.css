@@ -1,0 +1,55 @@
+/* Write your code here. */
+
+.buttons {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.list-item {
+  border: 2px solid #d7dae6;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.question-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  font-weight: 500;
+  font-size: 15px;
+  color: #52606d;
+}
+
+.images {
+  height: 20px;
+}
+
+.answer-cont {
+  border-top: 2px solid #e4e7eb;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.answer {
+  font-size: 12px;
+  font-weight: 500;
+  color: #9aa5b1;
+}
